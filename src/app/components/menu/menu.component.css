@@ -1,0 +1,20 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Set background color for each menu item */
+a[routerLink="/"] {
+  background-color: rgb(171, 216, 177);
+}
+
+a[routerLink="/contact"] {
+  background-color: pink;
+}
+
+a[routerLink="/about"] {
+  background-color: rgb(161, 161, 230);
+}

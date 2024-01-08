@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.shepherd-header {
+  background-color: rgb(238, 234, 165) !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  .shepherd-title {
+    font-weight: 700 !important;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    color: black;
+    flex: 1 0 auto !important;
+    display: contents !important;
+  }
+
+  height: 3rem;
+}
+
+.custom-next-button {
+  background-color: orange !important;
+  color: black !important;
+}
+
+.custom-back-button {
+  background-color: chocolate !important;
+}
